@@ -1,0 +1,48 @@
+#open {
+  padding: 50px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+section {
+  padding: 50px;
+}
+
+#nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.953);
+  overflow-x: hidden;
+  transition: 1s;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  margin-top: 130px;
+}
+
+#nav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #966363;
+  display: block;
+  transition: 1s;
+}
+
+#nav a:hover {
+  color: #d4c4c4;
+  transition: 1s;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 70px;
+}
+
